@@ -5,7 +5,7 @@ USER root
 
 # Install the desired npm packages globally
 RUN npm install server-wp-mcp
-RUN npm install && npm run build
+RUN npm install && run build
 
 # Revert to the node user for security purposes
 USER node
