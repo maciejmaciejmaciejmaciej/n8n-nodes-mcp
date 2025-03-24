@@ -5,7 +5,7 @@ USER root
 
 # Install the desired npm packages globally
 RUN npm install server-wp-mcp
-RUN npm install 
+RUN npm install woocommerce-mcp-server
 RUN npm run build
 
 # Revert to the node user for security purposes
